@@ -1,0 +1,41 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #4d4743;
+}
+
+nav {
+    background-color: #366856;
+    padding: 8px;
+}
+
+nav li {
+    text-decoration: none;
+    display: inline;
+    margin: 20px;
+    color: white;
+    position: relative;
+    right: ;
+}
+
+.main-content {
+    background-color: #4d4743;
+    color: #f4ddd0;
+    width: 100%;
+    height: %;
+}
+
+#coming-soon {
+    background-color: #695d57;
+
+}
+
+.contact-form {
+    background-color: #4d3a2e;
+}
+
+footer {
+    background-color: #366856;
+}

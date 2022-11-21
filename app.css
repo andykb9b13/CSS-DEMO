@@ -1,41 +1,147 @@
 * {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Source Code Pro', monospace;
 }
 
 body {
     background-color: #4d4743;
+    color: #f4ddd0;
+    margin: 0px;
+    padding: 0px;
 }
 
 nav {
     background-color: #366856;
-    padding: 8px;
+    padding: 1px;
+    border-bottom: 5px solid #f4ddd0;
+
 }
 
 nav li {
-    text-decoration: none;
     display: inline;
     margin: 20px;
-    color: white;
     position: relative;
-    right: ;
+    left: 700px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
 }
 
 .main-content {
-    background-color: #4d4743;
-    color: #f4ddd0;
-    width: 100%;
-    height: %;
+    background-color: #2a2624;
+    height: 100%;
+    padding: 20px;
+    margin: 0px;
+    border-bottom: 1px solid #f4ddd0;
+}
+
+.main-content p,
+h1 {
+    text-align: center;
 }
 
 #coming-soon {
     background-color: #695d57;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    left: 40%;
+    right: 40%;
+}
 
+#inner-1 {
+    border: 7px solid #fae4d7;
+    height: 210px;
+    width: 210px;
+    position: relative;
+    left: 14px;
+    top: 14px;
+    margin-right: 0px;
+}
+
+#inner-2 {
+    height: 180px;
+    width: 180px;
+    border: 7px solid #366856;
+    position: relative;
+    left: 8px;
+    top: 8px;
+}
+
+#inner-3 {
+    height: 140px;
+    width: 140px;
+    border: 7px solid #dbb59f;
+    padding: 5px;
+    position: relative;
+    left: 7px;
+    top: 7px;
+}
+
+#coming-soon p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 30px
 }
 
 .contact-form {
     background-color: #4d3a2e;
+    padding-bottom: 20px;
 }
+
+.contact-form h2 {
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+.contact-box {
+    border: 3px solid #8d7466;
+    border-radius: 10px;
+    width: 400px;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+
+form p,
+form input,
+form .button {
+    display: inline-block;
+}
+
+form input {
+    width: 200px;
+    background-color: #4d4743;
+}
+
+.button {
+    width: 80px;
+    height: 30px;
+    background-color: #4d4743;
+    border: 1px solid #bbb6b3;
+    position: relative;
+    left: 150px;
+    bottom: 6px;
+}
+
+.button p {
+    margin: 0;
+    position: relative;
+    left: 20px;
+    top: 4px;
+}
+
 
 footer {
     background-color: #366856;
+    border-bottom: 5px solid #f4ddd0;
+}
+
+footer h3 {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 300;
 }
